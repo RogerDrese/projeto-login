@@ -48,3 +48,54 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 }
+
+form > div.campo {
+    background-color: blueviolet;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: rgb(97, 31, 159);
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 5px;
+    margin-top: 7px;
+}
+
+form > a.botao:hover {
+    background-color: rgb(3, 190, 190);
+}
+
+form > a.botao > i {
+    font-size: 0.8em;
+}
