@@ -67,7 +67,7 @@ div.campo > span {
     background-color: black;
     font-size: 2em;
     width: 40px;
-    padding: 5px;
+    padding: 4px;
 }
 
 div.campo > input {
@@ -110,6 +110,7 @@ form > a.botao {
     padding-top: 5px;
     margin-top: 7px;
 }
+
 
 form > a.botao:hover {
     background-color: rgb(3, 190, 190);
